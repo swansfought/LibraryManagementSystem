@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/home.qss</file>
+        <file>img/id.png</file>
+        <file>img/pwd.png</file>
+        <file>img/booksystem.png</file>
+        <file>img/fight.png</file>
+        <file>img/puzzle.png</file>
+        <file>img/run.png</file>
+        <file>img/thinking.png</file>
+        <file>qss/login.qss</file>
+        <file>img/pwdClose.png</file>
+        <file>img/pwdShow.png</file>
+        <file>img/bookImage.png</file>
+        <file>img/userImage.png</file>
+        <file>img/book.png</file>
+        <file>img/application.png</file>
+        <file>img/book-1.gif</file>
+        <file>img/calendar.gif</file>
+        <file>img/exit.png</file>
+    </qresource>
+</RCC>

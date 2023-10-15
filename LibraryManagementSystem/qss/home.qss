@@ -1,0 +1,254 @@
+
+/* 底层背景颜色 */
+#widget_background{
+    background-color: rgb(245,246,247); /*245, 246, 247*/
+    border-radius:7px;
+    font:"微软雅黑";
+}
+
+#widget_insideBachground{
+    background-color: rgb(55, 61, 73);/*57, 61, 73 170, 170, 170*/
+    border-bottom-right-radius:7px;
+}
+
+#stackedWidget{
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius:7px;
+}
+
+
+/* 左边dock栏中的图标 */
+#lab_appIcon{
+    border-top-left-radius:8px;
+/*    background-color: rgb(245, 246, 247);*/
+/*    color:rgb(255,255,255);*/
+}
+
+/* 拖动栏中的退出，关闭，帮助，最大/小化按钮 */
+#btn_returnLogin,
+#btn_help,
+#btn_max,
+#btn_min,
+#btn_close{
+    background-color:rgb(245,246,247);
+    border-radius:0px;
+    border:none;
+    color:rgb(0,0,0);
+}
+
+#btn_returnLogin:hover,
+#btn_help:hover,
+#btn_max:hover,
+#btn_min:hover{
+        background-color:rgb(238, 238, 238);
+}
+
+#btn_returnLogin:pressed,
+#btn_help:pressed,
+#btn_max:pressed,
+#btn_min:pressed{
+    background-color:rgb(229, 229, 229);
+}
+
+#btn_close{ border-top-right-radius:7px; }
+#btn_close:hover{
+    background-color:rgb(248, 99, 95);
+    color:rgb(245,246,247);
+}
+#btn_close:pressed{
+    background-color:rgb(240, 91, 87);
+    color:rgb(245,246,247);
+}
+
+
+/*
+左边dock栏
+默认主页，即主页被点击
+*/
+#widget_dock{
+    background-color: rgb(57, 61, 73);/*124, 126, 122*/
+    border-bottom-left-radius:7px;
+}
+
+#btn_home,
+#btn_bookAnalysis,
+#btn_bookBrowse,
+#btn_bookReview,
+#btn_manageBook,
+#btn_manageReader,
+#btn_manageStaff,
+#btn_readerRecord,
+#btn_userInfo{
+/*    background-color:rgb(124, 126, 122);*/
+    background-color:rgb(57, 61, 73);
+    border-radius:0px;
+    border:none;
+    color:rgb(255,255,255);
+}
+
+#btn_bookAnalysis:hover,
+#btn_bookBrowse:hover,
+#btn_bookReview:hover,
+#btn_home:hover,
+#btn_manageBook:hover,
+#btn_manageReader:hover,
+#btn_manageStaff:hover,
+#btn_readerRecord:hover,
+#btn_userInfo:hover{
+/*    background-color:rgb(234, 237, 238);*/
+    background-color:rgb(255,255,255);
+    color:rgb(55, 55, 55);
+}
+
+#btn_bookAnalysis:checked,
+#btn_bookBrowse:checked,
+#btn_bookReview:checked,
+#btn_home:checked,
+#btn_manageBook:checked,
+#btn_manageReader:checked,
+#btn_manageStaff:checked,
+#btn_readerRecord:checked,
+#btn_userInfo:checked{
+    background-color:rgb(0, 150, 136);
+    color:rgb(255, 255, 255);
+}
+
+/* 密码可视按钮按钮样式 */
+#btn_newPwdVisible,
+#btn_suerNewPwdVisible{
+    background-color:rgb(245, 246, 247);
+    border:none;
+}
+#btn_newPwdVisible:hover,
+#btn_suerNewPwdVisible:hover{
+    background-color:rgb(245, 246, 247);
+}
+#btn_newPwdVisible:pressed,
+#btn_suerNewPwdVisible:pressed{
+    background-color:rgb(245, 246, 247);
+}
+
+/* 其他所有按钮样式 */
+#btn_manageBookIntro,
+#btn_editSelfInfoImage,
+#btn_goAnalysisBookType,
+#btn_exitAnalysisBookType,
+#btn_borrowApply,
+#btn_reviewBookAgree,
+#btn_reviewBookRefuse,
+#btn_manageAdd,
+#btn_manageDelete,
+#btn_manageSave,
+#btn_manageSelectBookImage,
+#btn_readerAdd,
+#btn_readerDelete,
+#btn_readerSave,
+#btn_readerUpdateInfo,
+#btn_staffAdd,
+#btn_staffDelete,
+#btn_staffSave,
+#btn_recordRefuseLook,
+#btn_recordReturnBook,
+#btn_recordBookApply,
+#btn_recordBookLoss,
+#btn_editSelfInfo,
+#btn_manageSelectReaderImage,
+#btn_manageSelectStaffImage,
+#btn_editNewPwd{
+    background-color:rgb(245, 245, 245);
+    border-radius:4px;
+    border:1px solid gray;
+}
+#btn_manageBookIntro:hover,
+#btn_editSelfInfoImage:hover,
+#btn_goAnalysisBookType:hover,
+#btn_exitAnalysisBookType:hover,
+#btn_borrowApply:hover,
+#btn_reviewBookAgree:hover,
+#btn_reviewBookRefuse:hover,
+#btn_manageAdd:hover,
+#btn_manageDelete:hover,
+#btn_manageSave:hover,
+#btn_manageSelectBookImage:hover,
+#btn_manageSelectStaffImage:hover,
+#btn_readerAdd:hover,
+#btn_readerDelete:hover,
+#btn_readerSave:hover,
+#btn_readerUpdateInfo:hover,
+#btn_staffAdd:hover,
+#btn_staffDelete:hover,
+#btn_staffSave:hover,
+#btn_recordRefuseLook:hover,
+#btn_recordReturnBook:hover,
+#btn_recordBookApply:hover,
+#btn_recordBookLoss:hover,
+#btn_manageSelectReaderImage:hover,
+#btn_editSelfInfo:hover,
+#btn_editNewPwd:hover{
+    background-color:rgb(238,238,238);
+}
+#btn_manageBookIntro:pressed,
+#btn_editSelfInfoImage:pressed,
+#btn_goAnalysisBookType:pressed,
+#btn_exitAnalysisBookType:pressed,
+#btn_borrowApply:pressed,
+#btn_reviewBookAgree:pressed,
+#btn_reviewBookRefuse:pressed,
+#btn_manageAdd:pressed,
+#btn_manageDelete:pressed,
+#btn_manageSave:pressed,
+#btn_manageSelectBookImage:pressed,
+#btn_manageSelectStaffImage:pressed,
+#btn_readerAdd:pressed,
+#btn_readerDelete:pressed,
+#btn_readerSave:pressed,
+#btn_readerUpdateInfo:pressed,
+#btn_staffAdd:pressed,
+#btn_staffDelete:pressed,
+#btn_staffSave:pressed,
+#btn_recordRefuseLook:pressed,
+#btn_recordReturnBook:pressed,
+#btn_recordBookApply:pressed,
+#btn_recordBookLoss:pressed,
+#btn_manageSelectReaderImage:pressed,
+#btn_editSelfInfo:pressed,
+#btn_editNewPwd:pressed{
+    background-color:rgb(229, 229, 229);
+}
+
+/*输入框*/
+QLineEdit{
+    /*background-color: rgb(227,245,255);*/
+    background-color: rgb(255, 255, 255);
+    border-radius:4px;
+    border:1px solid gray;
+    padding-left: 2px;/*左侧边距*/
+}
+
+/*QCombobox组合框*/
+#cBox_bookType,
+#cBox_bookIsBorrowable,
+#cBox_recordType,
+#cBox_recordType_manager,
+#cBox_recordReaderType_manager,
+#cBox_manageBookType,
+#cBox_managerbookIsBorrow,
+#cBox_managerbookType,
+#cBox_managerReaderIdentify,
+#cBox_readerIdentify,
+#cBox_readerSex,
+#cBox_staffSex{
+    background-color: rgb(245, 246, 247);
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding-left: 5px;/*左侧边距*/
+}
+
+#spinBox_recordAddNewDay,
+#spinBox_borrowDay,
+#doubleSpinBox_bookPrice{
+    background-color: rgb(245, 246, 247);
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding-left: 5px;/*左侧边距*/
+}

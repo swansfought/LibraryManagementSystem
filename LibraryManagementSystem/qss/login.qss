@@ -1,0 +1,99 @@
+
+
+#widget_background{
+    background-color: rgb(245, 246, 247);
+    border-radius:7px;
+    font:"微软雅黑";
+}
+
+#widget_imageBackground{
+    background-color: rgb(57, 61, 73);
+    border-radius:5px;
+}
+
+#btn_help,
+#btn_min,
+#btn_close{
+    background-color:rgb(245,246,247);
+    border-radius:0px;
+    border:none;
+    color:rgb(0,0,0);
+}
+
+#btn_help:hover,
+#btn_min:hover{
+        background-color:rgb(238, 238, 238);
+}
+
+#btn_help:pressed,
+#btn_min:pressed{
+    background-color:rgb(229, 229, 229);
+}
+
+#btn_close{ border-top-right-radius:7px; }
+#btn_close:hover{
+    background-color:rgb(248, 99, 95);
+    color:rgb(245,246,247);
+}
+#btn_close:pressed{
+    background-color:rgb(240, 91, 87);
+    color:rgb(245,246,247);
+}
+
+#btn_registerPwdVisible,
+#btn_pwdVisible,
+#btn_suerPwdVisible{
+    background-color:rgb(245, 246, 247);
+    border:none;
+}
+#btn_registerPwdVisible:hover,
+#btn_pwdVisible:hover,
+#btn_suerPwdVisible:hover{
+    background-color:rgb(245, 246, 247);
+}
+
+#btn_registerPwdVisible:pressed,
+#btn_pwdVisible:pressed,
+#btn_suerPwdVisible:pressed{
+    background-color:rgb(245, 246, 247);
+}
+#btn_visitor,
+#btn_returnLogin,
+#btn_perfectInfo{
+    background-color:rgb(245, 246, 247);
+    border-radius:0px;
+    color:rgb(0,0,0);
+    border-bottom: 1px solid black;
+}
+#btn_visitor:hover,
+#btn_returnLogin:hover,
+#btn_perfectInfo:hover{font-weight:bold;}
+
+/* 其他所有按钮样式 */
+#btn_login,
+#btn_clearInfo,
+#btn_sureInfo{
+    background-color:rgb(245, 245, 245);
+    border-radius:4px;
+    border:1px solid gray;
+}
+#btn_login:hover,
+#btn_clearInfo:hover,
+#btn_sureInfo:hover{
+    background-color:rgb(238,238,238);
+}
+#btn_login:pressed,
+#btn_clearInfo:pressed,
+#btn_sureInfo:pressed{
+    background-color:rgb(229, 229, 229);
+}
+
+/*输入框*/
+QLineEdit{
+    /*background-color: rgb(227,245,255);*/
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;
+    border:1px solid gray;
+    font: 10pt "Microsoft YaHei UI";
+    padding-left: 5px;/*左侧边距*/
+}
